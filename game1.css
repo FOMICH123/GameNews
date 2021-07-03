@@ -1,6 +1,5 @@
 .central {
   text-align: left;
-  height: 100%;
 }
 .first {
   border-radius: 15px;
@@ -79,4 +78,22 @@ iframe {
 }
 .grid img:nth-child(6) {
   grid-area: grid6;
+}
+@media (max-width: 600px) {
+  .central {
+    text-align: center;
+  }
+  .first {
+    text-align: left;
+    width: 90%;
+    display: inline-block;
+    margin-top: 20%;
+    padding: 5%;
+  }
+  .second {
+    width: 90%;
+  }
+  iframe {
+    height: 500px !important;
+  }
 }
