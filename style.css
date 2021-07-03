@@ -620,8 +620,14 @@ form hr {
 .download p {
   color: rgb(131, 58, 180);
 }
+#Upheader {
+  position: fixed;
+}
 #Upheader input {
   display: none;
+}
+#under {
+  position: static;
 }
 @media (max-width: 600px) {
   #Upheader {
