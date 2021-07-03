@@ -1,0 +1,99 @@
+.aboutF1 {
+  text-align: left;
+  padding: 0 20%;
+  margin: 30px;
+}
+.central h1 {
+  color: rgb(253, 29, 29, 1);
+}
+.aboutF1 p {
+  border-left: 2px solid rgba(218, 151, 56, 1);
+}
+.aboutF2Out {
+  padding: 30px;
+  overflow: hidden;
+  background-color: #21212155;
+}
+.aboutF2In {
+  box-shadow: 0 0 10px rgba(131, 58, 180, 1);
+  vertical-align: top;
+  display: inline-block;
+  background-color: #393e46;
+  /* float: left; */
+  width: 45%;
+  text-align: left;
+  padding: 30px;
+}
+iframe {
+  box-shadow: 0 0 15px rgba(218, 151, 56, 1);
+}
+.aboutInf li {
+  margin: 38px 0;
+  border-bottom: 1px solid rgba(218, 151, 56, 1);
+}
+.aboutF2In .social {
+  padding: 0;
+}
+.aboutF2Out h2 {
+  padding: 15px;
+  font-size: 28px;
+}
+.person {
+  margin: 15px;
+  box-shadow: 0 0 10px rgba(131, 58, 180, 1);
+  overflow: hidden;
+  width: calc(100% / 4);
+  display: inline-block;
+}
+.perLeft {
+  float: left;
+}
+.perRight {
+  text-align: left;
+  float: right;
+}
+.perLeft img {
+  object-fit: cover;
+  padding: 10px;
+  width: 150px;
+  height: 150px;
+  border-radius: 150px;
+}
+.perRight h5 {
+  font-size: 20px;
+  color: rgba(218, 151, 56, 1);
+}
+.perRight p {
+  padding-bottom: 5px;
+  vertical-align: middle;
+}
+.perRight p img {
+  padding-right: 10px;
+  vertical-align: middle;
+  width: 30px;
+}
+@media (max-width: 600px) {
+  .aboutF1 {
+    padding: 0 5%;
+  }
+  .aboutF2Out {
+    padding: 5%;
+  }
+  .aboutF2In {
+    display: block;
+    width: 100%;
+  }
+  iframe {
+    display: block;
+    width: 100%;
+    margin-top: 15px;
+  }
+  .team {
+    padding: 5%;
+  }
+  .person {
+    display: block;
+    width: 100%;
+    margin: 30px 0;
+  }
+}

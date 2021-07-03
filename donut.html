@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Донат</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="donut.css" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Oswald&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="header" id="Upheader">
+      <div class="container">
+        <input type="checkbox" id="check" />
+        <label for="check">
+          <span></span>
+        </label>
+        <a href="/" class="gamepad"><img src="gamepad.png" alt="gamepad" /></a>
+        <ul class="menu" id="upMenu">
+          <li>
+            <a href="/">Главная</a>
+          </li>
+          <!-- <li>
+            <a href="#crack">Крякнутые игры</a>
+          </li> -->
+          <li>
+            <a href="about.html">О нас</a>
+          </li>
+          <li>
+            <a href="comment.html">Отзывы</a>
+          </li>
+          <li>
+            <a href="donut.html">Донат</a>
+          </li>
+        </ul>
+        <a href="#/" class="login">Войти</a>
+      </div>
+    </div>
+    <div class="central">
+      <h1>Донат</h1>
+      <div class="donatInf">
+        <h2>Правила доната</h2>
+        <ul>
+          <li>После оплаты пожертвования мы не обязаны его возвращать</li>
+          <li>Донат - это добровольное пожертвование</li>
+          <li>
+            Если вы принесёте пожертвование, то мы будем чаще выкладывать
+            интересные статьи. :3
+          </li>
+        </ul>
+      </div>
+      <div class="donutOut">
+        <div class="donutIn">
+          <h2>Способ оплаты</h2>
+          <form action="" class="plata">
+            <legend>Пожалуйста выбирете способ оплаты</legend>
+            <input type="radio" value="yandex" id="choice1" name="oplata" />
+            <label for="choice1">Я.Деньги</label>
+
+            <input type="radio" value="card" id="choice2" name="oplata" />
+            <label for="choice2">Карта</label>
+
+            <input type="radio" value="phone" id="choice3" name="oplata" />
+            <label for="choice3">Телефон</label>
+            <div class="signBtns">
+              <a href="#/" class="submitBtn">Оплатить</a>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+    <div class="modal">
+      <form action="">
+        <div class="container">
+          <h1>Регистрация</h1>
+          <p>Пожалуйста заолните форму, чтобы зарегистрироваться.</p>
+          <hr />
+          <label for="email"><b>Email</b></label>
+          <input type="email" placeholder="Введите вашу почту" class="email" />
+
+          <label for="psw"><b>Пароль</b></label>
+          <input
+            type="password"
+            placeholder="Введите пароль"
+            class="password"
+          />
+
+          <label> <input type="checkbox" /> Запомнить меня </label>
+          <div class="signBtns">
+            <a href="#/" class="cancelBtn">Отмена</a>
+            <a href="#/" class="submitBtn">Регистрация</a>
+          </div>
+        </div>
+      </form>
+    </div>
+
+    <div class="podval" id="info">
+      <div class="container">
+        <h2>Контактная информация</h2>
+        <div class="header" id="under">
+          <div class="container">
+            <a href="/" class="gamepad"
+              ><img src="gamepad.png" alt="gamepad"
+            /></a>
+            <ul class="menu">
+              <li>
+                <a href="/">Главная</a>
+              </li>
+              <li>
+                <a href="#/">О нас</a>
+              </li>
+              <li>
+                <a href="comment.html">Отзывы</a>
+              </li>
+              <li>
+                <a href="#info">Донат</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="phone">
+          <a href="#/" class="phoneA">
+            <img src="phone.svg" alt="" /> +7 956 125 12 09</a
+          >
+        </div>
+
+        <div class="social">
+          <a href="#/"> <img src="vkIcon.svg" alt="" /></a>
+          <a href="#/"><img src="fbIcon.svg" alt="" /></a>
+          <a href="#/"><img src="igIcon.svg" alt="" /></a>
+          <a href="#/"><img src="mailIcon.svg" alt="" /></a>
+        </div>
+      </div>
+    </div>
+    <script src="common.js"></script>
+  </body>
+</html>
