@@ -753,11 +753,14 @@ form hr {
     padding: 0 10px;
   }
   .block {
+    position: relative;
     vertical-align: top;
     min-height: 250px;
     max-height: 250px;
   }
   .block h5 {
-    transform: translateY(100%);
+    display: block;
+    position: absolute;
+    top: 90%;
   }
 }
